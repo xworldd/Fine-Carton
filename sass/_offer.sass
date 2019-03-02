@@ -1,0 +1,76 @@
+.overlay
+	position: fixed
+	display: none
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	z-index: 3
+	background-color: rgba(#000,0.5)
+.popup
+	position: fixed
+	left: 50%
+	top: 100px
+	width: 752px
+	transform: translateX(-50%)
+	
+	&__close 
+		position: absolute
+		font-size: 34px
+		color: #fff
+		right: -20px
+		top: -30px
+		font-weight: 300
+		cursor: pointer
+	&__title
+		display: block
+		background-color: #ff9d00;
+		width: 100%
+		min-height: 71px
+		margin: 0
+		padding: 23px 0px
+		text-align: center
+		color: #ffffff
+		font-family: Roboto
+		font-size: 21px
+		font-weight: 400
+		line-height: 22px
+		text-transform: uppercase	
+	&__form
+		background: url(../img/main/offer_bg.png) center	no-repeat 
+		background-size: cover
+		padding: 35px 88px 50px 88px
+		color: #fff;
+	.popup-form-heading
+		padding: 0
+		font-size: 30px
+		font-weight: 400
+		line-height: 27px
+		text-align: center
+		& span
+			font-size: 24px
+			padding-bottom: 23px
+		&__label
+			margin-top: 23px
+			display: block
+			font-size: 20px
+			font-weight: 300
+			line-height: 30px	
+		& input
+			font-size: 14px
+			font-weight: 300
+			line-height: 42px	
+			border-radius: 6px
+			width: 365px
+			height: 56px
+			padding-left: 13px
+			margin-top: 17px
+		& button
+			width: 180px
+			height: 56px	
+			margin-left: 13px
+		& small
+			font-size: 14px
+			font-weight: 300
+			line-height: 30px	
+			text-align: center

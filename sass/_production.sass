@@ -1,0 +1,88 @@
+.production-wrapping
+	display: flex
+	flex-direction: row
+	
+
+
+
+.production-slider
+	order: 0
+	width: 49%
+	vertical-align: middle
+	display: inline-block
+
+
+.production-slier__bottom
+	position: relative
+	margin: 10px
+	&-item
+		max-width: 116px
+		max-height: 78px
+		cursor: pointer
+		position: relative
+		& img 
+			width: 100%
+			height: 100%
+			filter: brightness(50%)
+
+.slick-current img
+	filter: none
+
+.slider-arrow
+ position: absolute
+ z-index: 49
+ top: 0
+ width: 22px
+ height: 100%
+ border: 1px solid #ff9d00
+ &:hover
+ 	cursor: pointer
+ &_left
+	 left: -25px
+	 background: url("../img/slider-items/arrow-left.png") center no-repeat
+		&:hover
+			background: #ff9d00 url("../img/slider-items/arrow-left_active.png") center no-repeat
+	&_right
+	 right: -9px
+	 background: url("../img/slider-items/arrow-right.png") center no-repeat
+		&:hover
+			background: #ff9d00 url("../img/slider-items/arrow-right_active.png") center no-repeat	
+
+
+			 	
+
+
+
+
+.production-text
+	order: 1
+	padding-right: 20px
+	display: inline-block
+	vertical-align: middle
+	&__wrapping
+		display: flex
+		flex-direction: column
+		justify-content: center
+
+	&__heading
+		position: relative
+		transform: translateX(-23px)
+		display: flex
+		padding-left: 30px
+		width: 500px
+		margin-top: 20px
+		padding-top: 15px
+		padding-bottom: 15px
+		background-color: #ff9d00
+		font-size: 28px
+		font-weight: 400
+		color: #fff
+
+	&__cont
+		padding-top: 30px
+		font-size: 16px
+		font-weight: 300
+		color: #373737
+		line-height: 24px;
+
+
